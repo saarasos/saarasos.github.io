@@ -1,0 +1,21 @@
+.color-example {
+    color: blueviolet;
+    background-color: #ff0;
+    border-style: solid;
+    border-color: aquamarine; 
+    border-width: 12px; }
+.header-example {
+    font-size: 32px;
+    font-family: Arial; }
+.header-example {
+    color: fuchsia; }
+.list-example {
+    list-style: square; 
+    color: coral; }
+.text-example {
+    font-family: 'Gill Sans'; 
+    font-size: 25px;
+    text-transform: initial;
+    text-decoration: underline; }
+.div-example {background-color: rgb(147, 227, 211);
+    border-style: dotted;}

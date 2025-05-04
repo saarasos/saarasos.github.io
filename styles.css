@@ -11,11 +11,22 @@
     color: fuchsia; }
 .list-example {
     list-style: square; 
-    color: coral; }
+    color: violet; }
 .text-example {
     font-family: 'Gill Sans'; 
     font-size: 25px;
     text-transform: initial;
     text-decoration: underline; }
 .div-example {background-color: rgb(147, 227, 211);
-    border-style: dotted;}
+    border-style: dotted;padding: 5px;}
+#header{background-color: lightblue;}
+#nav{background-color: lightgreen;}
+#section{background-color: gray;}
+article{margin: 5px;}
+footer{font-size: small; margin: 5px;}
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover{color: red;}

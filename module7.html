@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Minä vain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Minä</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="saara.jpeg">KUKA</a></li>
+        <li><a href="sunset2.jpeg">MITÄ</a></li>
+        <li><a href="keyislands.JPG">MISSÄ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Kuka olen?</h3>
+  <img src="saara.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Olen iloinen nörtti</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Mikä minä olen?</h3>
+  <p>Iloinen, seurallinen höpöttäjä. Usein myös viihdyn omissa oloissani ja palaudun maailman hölinöistä. Perhe, ystävät ja karvakamut ovat kaikista tärkeimpiä. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Mistä minut löytää?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Minut yleensä löytää työpöytäni äärestä opiskelemassa. Tai sitten keittiönpöydän yllä läppäriä tuijottamassa. Jokatapauksessa arkisin koneella.</p>
+      <img src="sunset2.jpeg" class="img-responsive margin" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Minut voi myös löytää salilta tai kävelyllä. Voin vapaalla myös ilmstyä ystävieni kanssa teatteriin, taidenäyttelyyn, elokuviin tai vaikka musabingoon.</p>
+      <img src="keyislands.JPG" class="img-responsive margin" style="width:83%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Kesäisin minut tavoittaa parvekkeelta tai jostain meren rannasta istukelemasta. Saattaa olla, että sitä myös joskus terassille eksyy.</p>
+      <img src="night.jpeg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
